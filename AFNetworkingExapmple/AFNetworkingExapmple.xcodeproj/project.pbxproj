@@ -23,6 +23,8 @@
 		BE293F9D1844F42400B59B83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE293F9B1844F42400B59B83 /* InfoPlist.strings */; };
 		BE293F9F1844F42400B59B83 /* AFNetworkingExapmpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293F9E1844F42400B59B83 /* AFNetworkingExapmpleTests.m */; };
 		BE293FAB1844F86B00B59B83 /* LLXAppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FAA1844F86B00B59B83 /* LLXAppDotNetAPIClient.m */; };
+		BE293FB11844FC0400B59B83 /* LLXPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FB01844FC0400B59B83 /* LLXPost.m */; };
+		BE293FB41844FC1700B59B83 /* LLXUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FB31844FC1700B59B83 /* LLXUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		BE293F9E1844F42400B59B83 /* AFNetworkingExapmpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingExapmpleTests.m; sourceTree = "<group>"; };
 		BE293FA91844F86B00B59B83 /* LLXAppDotNetAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLXAppDotNetAPIClient.h; sourceTree = "<group>"; };
 		BE293FAA1844F86B00B59B83 /* LLXAppDotNetAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLXAppDotNetAPIClient.m; sourceTree = "<group>"; };
+		BE293FAF1844FC0400B59B83 /* LLXPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLXPost.h; sourceTree = "<group>"; };
+		BE293FB01844FC0400B59B83 /* LLXPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLXPost.m; sourceTree = "<group>"; };
+		BE293FB21844FC1700B59B83 /* LLXUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLXUser.h; sourceTree = "<group>"; };
+		BE293FB31844FC1700B59B83 /* LLXUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLXUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,9 @@
 		BE293F791844F42300B59B83 /* AFNetworkingExapmple */ = {
 			isa = PBXGroup;
 			children = (
+				BE293FAE1844FBA600B59B83 /* Controllers */,
+				BE293FAD1844FB9800B59B83 /* Views */,
+				BE293FAC1844FB7E00B59B83 /* Models */,
 				BE293FA81844F82200B59B83 /* Networking Extensions */,
 				BE293F821844F42300B59B83 /* LLXAppDelegate.h */,
 				BE293F831844F42300B59B83 /* LLXAppDelegate.m */,
@@ -169,6 +178,31 @@
 				BE293FAA1844F86B00B59B83 /* LLXAppDotNetAPIClient.m */,
 			);
 			name = "Networking Extensions";
+			sourceTree = "<group>";
+		};
+		BE293FAC1844FB7E00B59B83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE293FAF1844FC0400B59B83 /* LLXPost.h */,
+				BE293FB01844FC0400B59B83 /* LLXPost.m */,
+				BE293FB21844FC1700B59B83 /* LLXUser.h */,
+				BE293FB31844FC1700B59B83 /* LLXUser.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BE293FAD1844FB9800B59B83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BE293FAE1844FBA600B59B83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE293F801844F42300B59B83 /* main.m in Sources */,
+				BE293FB41844FC1700B59B83 /* LLXUser.m in Sources */,
+				BE293FB11844FC0400B59B83 /* LLXPost.m in Sources */,
 				BE293F8A1844F42400B59B83 /* LLXViewController.m in Sources */,
 				BE293FAB1844F86B00B59B83 /* LLXAppDotNetAPIClient.m in Sources */,
 				BE293F841844F42300B59B83 /* LLXAppDelegate.m in Sources */,
