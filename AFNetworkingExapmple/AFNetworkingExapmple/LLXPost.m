@@ -30,7 +30,7 @@
             GET:@"stream/0/posts/stream/global"
             parameters:nil
             success:^(NSURLSessionDataTask *task, id json){
-                NSArray *postsFromResponse = [json valueForKey:@"data"];
+                NSArray *postsFromResponse = [json valueForKeyPath:@"data"];
                 NSMutableArray *mutablePosts = [NSMutableArray arrayWithCapacity:[postsFromResponse count]];
                 for (NSDictionary *attributes in postsFromResponse) {
                     LLXPost *post = [[LLXPost alloc] initWithAttributes:attributes];

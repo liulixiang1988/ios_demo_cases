@@ -7,7 +7,6 @@
 //
 
 #import "LLXUser.h"
-#import "AFHTTPRequestOperation.h"
 @interface LLXUser()
 
 @property(nonatomic, assign) NSUInteger userID;
@@ -21,9 +20,9 @@
 {
     self =[super init];
     if(self){
-        self.userID = [[attributes valueForKey:@"id"] integerValue];
-        self.username = [attributes valueForKey:@"username"];
-        self.avatarImageURLString = [attributes valueForKey:@"avatar_image.url"];
+        self.userID = [[attributes valueForKeyPath:@"id"] integerValue];
+        self.username = [attributes valueForKeyPath:@"username"];
+        self.avatarImageURLString = [attributes valueForKeyPath:@"avatar_image.url"];
     }
     return self;
 }
