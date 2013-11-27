@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class LLXPost;
+
 @interface LLXPostCell : UITableViewCell
+
+@property(nonatomic, strong) LLXPost *post;
+
++(CGFloat)heightForCellWithPost:(LLXPost *)post;
 
 @end

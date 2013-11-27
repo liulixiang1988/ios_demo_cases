@@ -42,6 +42,8 @@
 		BE293FEB184585B600B59B83 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FE3184585B600B59B83 /* UIProgressView+AFNetworking.m */; };
 		BE293FEC184585B600B59B83 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FE5184585B600B59B83 /* UIWebView+AFNetworking.m */; };
 		BE293FEF184589BF00B59B83 /* LLXPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FEE184589BF00B59B83 /* LLXPostCell.m */; };
+		BE293FF818458CF300B59B83 /* profile-image-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = BE293FF618458CF300B59B83 /* profile-image-placeholder.png */; };
+		BE293FF918458CF300B59B83 /* profile-image-placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE293FF718458CF300B59B83 /* profile-image-placeholder@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +120,8 @@
 		BE293FE5184585B600B59B83 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
 		BE293FED184589BF00B59B83 /* LLXPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLXPostCell.h; sourceTree = "<group>"; };
 		BE293FEE184589BF00B59B83 /* LLXPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLXPostCell.m; sourceTree = "<group>"; };
+		BE293FF618458CF300B59B83 /* profile-image-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder.png"; sourceTree = "<group>"; };
+		BE293FF718458CF300B59B83 /* profile-image-placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-placeholder@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,7 @@
 				BE293F831844F42300B59B83 /* LLXAppDelegate.m */,
 				BE293F851844F42300B59B83 /* Main.storyboard */,
 				BE293F8B1844F42400B59B83 /* Images.xcassets */,
+				BE293FF518458CF300B59B83 /* Images */,
 				BE293F7A1844F42300B59B83 /* Supporting Files */,
 			);
 			path = AFNetworkingExapmple;
@@ -318,6 +323,15 @@
 			name = "UIKit+AFNetwoking";
 			sourceTree = "<group>";
 		};
+		BE293FF518458CF300B59B83 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BE293FF618458CF300B59B83 /* profile-image-placeholder.png */,
+				BE293FF718458CF300B59B83 /* profile-image-placeholder@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -398,8 +412,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE293F8C1844F42400B59B83 /* Images.xcassets in Resources */,
+				BE293FF818458CF300B59B83 /* profile-image-placeholder.png in Resources */,
 				BE293F7E1844F42300B59B83 /* InfoPlist.strings in Resources */,
 				BE293F871844F42300B59B83 /* Main.storyboard in Resources */,
+				BE293FF918458CF300B59B83 /* profile-image-placeholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
