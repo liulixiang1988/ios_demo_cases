@@ -41,6 +41,7 @@
 		BE293FEA184585B600B59B83 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FE0184585B600B59B83 /* UIImageView+AFNetworking.m */; };
 		BE293FEB184585B600B59B83 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FE3184585B600B59B83 /* UIProgressView+AFNetworking.m */; };
 		BE293FEC184585B600B59B83 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FE5184585B600B59B83 /* UIWebView+AFNetworking.m */; };
+		BE293FEF184589BF00B59B83 /* LLXPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE293FEE184589BF00B59B83 /* LLXPostCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		BE293FE3184585B600B59B83 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
 		BE293FE4184585B600B59B83 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
 		BE293FE5184585B600B59B83 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		BE293FED184589BF00B59B83 /* LLXPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLXPostCell.h; sourceTree = "<group>"; };
+		BE293FEE184589BF00B59B83 /* LLXPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLXPostCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +246,8 @@
 		BE293FAD1844FB9800B59B83 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE293FED184589BF00B59B83 /* LLXPostCell.h */,
+				BE293FEE184589BF00B59B83 /* LLXPostCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -449,6 +454,7 @@
 				BE293FD51845857E00B59B83 /* AFURLSessionManager.m in Sources */,
 				BE293F801844F42300B59B83 /* main.m in Sources */,
 				BE293FB7184583AE00B59B83 /* LLXViewController.m in Sources */,
+				BE293FEF184589BF00B59B83 /* LLXPostCell.m in Sources */,
 				BE293FD01845857E00B59B83 /* AFNetworkReachabilityManager.m in Sources */,
 				BE293FE6184585B600B59B83 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				BE293FB41844FC1700B59B83 /* LLXUser.m in Sources */,
