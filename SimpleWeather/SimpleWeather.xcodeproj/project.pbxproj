@@ -19,6 +19,8 @@
 		6410DD5024EF0AD754F5E392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DEA36CA00C6C395A9091 /* Foundation.framework */; };
 		6410DE7FA439B065B5A34FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DEA36CA00C6C395A9091 /* Foundation.framework */; };
 		6410DF011FBCFE6920969E7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410D1819643765D4B175D7C /* CoreGraphics.framework */; };
+		8E1BF04FDA384A418A48D17D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 966BB8A15F5F44EDB2BC752C /* libPods.a */; };
+		BEF9C3D618A61BE300E09A18 /* LXController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF9C3D518A61BE300E09A18 /* LXController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		6410DC469C7191C2BC7D40BB /* SimpleWeatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "SimpleWeatherTests-Info.plist"; sourceTree = "<group>"; };
 		6410DEA36CA00C6C395A9091 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6410DF7A6F7F75DCF91C9DA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68B23D6C1B734D67A379188F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		966BB8A15F5F44EDB2BC752C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9C3D418A61BE300E09A18 /* LXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXController.h; sourceTree = "<group>"; };
+		BEF9C3D518A61BE300E09A18 /* LXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 				6410DE7FA439B065B5A34FB4 /* Foundation.framework in Frameworks */,
 				6410DF011FBCFE6920969E7A /* CoreGraphics.framework in Frameworks */,
 				6410DB236845334A32BADDCE /* UIKit.framework in Frameworks */,
+				8E1BF04FDA384A418A48D17D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +108,8 @@
 				6410D9EF6C45A5A1AC01130F /* LXAppDelegate.h */,
 				6410DB56BC215C56F65C3FF6 /* LXAppDelegate.m */,
 				6410D37737ACBB8CAB69240C /* Images.xcassets */,
+				BEF9C3D418A61BE300E09A18 /* LXController.h */,
+				BEF9C3D518A61BE300E09A18 /* LXController.m */,
 			);
 			path = SimpleWeather;
 			sourceTree = "<group>";
@@ -121,6 +130,7 @@
 				6410D1819643765D4B175D7C /* CoreGraphics.framework */,
 				6410D44A3ABEC47AD93D5785 /* UIKit.framework */,
 				6410D8D265AB9EE3F3ACB5C2 /* XCTest.framework */,
+				966BB8A15F5F44EDB2BC752C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +142,7 @@
 				6410D88536B302A1A9828799 /* Frameworks */,
 				6410D7059070A0F4B53977CE /* SimpleWeather */,
 				6410DB93463718127CA47A2E /* SimpleWeatherTests */,
+				68B23D6C1B734D67A379188F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6410D171D03C355846FE6329 /* Build configuration list for PBXNativeTarget "SimpleWeather" */;
 			buildPhases = (
+				9A4C402B6F024C90A1A525F5 /* Check Pods Manifest.lock */,
 				6410D3E5C40BA2AEB4AAFA25 /* Sources */,
 				6410D949391BD26E4FDDA6E0 /* Frameworks */,
 				6410D5E1B60888CFA220E294 /* Resources */,
+				DB92F92A64814AF58F89C86C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +201,7 @@
 		6410D40D5CBDC2539256A340 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				ORGANIZATIONNAME = liulixiang;
 			};
 			buildConfigurationList = 6410D1C506BC66A837E0DCE5 /* Build configuration list for PBXProject "SimpleWeather" */;
@@ -228,11 +242,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9A4C402B6F024C90A1A525F5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB92F92A64814AF58F89C86C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6410D3E5C40BA2AEB4AAFA25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF9C3D618A61BE300E09A18 /* LXController.m in Sources */,
 				6410DCB5877A397BD0CD70B3 /* main.m in Sources */,
 				6410D9E524D4980807FD4769 /* LXAppDelegate.m in Sources */,
 			);
@@ -293,6 +341,7 @@
 		};
 		6410D3CF1CFBDC48BFF0CAF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B23D6C1B734D67A379188F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -378,6 +427,7 @@
 		};
 		6410DAA8C15E59ABD396B187 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B23D6C1B734D67A379188F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -414,6 +464,7 @@
 				6410D0B2072CAE45EF359384 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6410D171D03C355846FE6329 /* Build configuration list for PBXNativeTarget "SimpleWeather" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +473,7 @@
 				6410D3CF1CFBDC48BFF0CAF2 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6410D1C506BC66A837E0DCE5 /* Build configuration list for PBXProject "SimpleWeather" */ = {
 			isa = XCConfigurationList;
