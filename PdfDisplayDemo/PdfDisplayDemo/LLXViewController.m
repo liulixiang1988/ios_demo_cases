@@ -20,7 +20,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     //self.webView.autoresizesSubviews = YES;
     //self.webView.autoresizingMask=(UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth);
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham" ofType:@"pdf"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"doc"];
     NSURL *url = [NSURL fileURLWithPath:path];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:request];

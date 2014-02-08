@@ -21,6 +21,7 @@
 		BE0BC3CF1897C94300CA1777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0BC3B11897C94300CA1777 /* UIKit.framework */; };
 		BE0BC3D71897C94300CA1777 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE0BC3D51897C94300CA1777 /* InfoPlist.strings */; };
 		BE0BC3D91897C94300CA1777 /* PdfDisplayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0BC3D81897C94300CA1777 /* PdfDisplayDemoTests.m */; };
+		BE8E71A818A4640E00D765C3 /* 1.doc in Resources */ = {isa = PBXBuildFile; fileRef = BE8E71A718A4640E00D765C3 /* 1.doc */; };
 		BEDF43331897D88300597D23 /* AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BEDF43321897D88300597D23 /* AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		BE0BC3D41897C94300CA1777 /* PdfDisplayDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PdfDisplayDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BE0BC3D61897C94300CA1777 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE0BC3D81897C94300CA1777 /* PdfDisplayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PdfDisplayDemoTests.m; sourceTree = "<group>"; };
+		BE8E71A718A4640E00D765C3 /* 1.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.doc; sourceTree = "<group>"; };
 		BEDF43321897D88300597D23 /* AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf"; path = "../../../../书籍/AFNetworking/AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 		BE0BC3B31897C94300CA1777 /* PdfDisplayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BE8E71A718A4640E00D765C3 /* 1.doc */,
 				BE0BC3BC1897C94300CA1777 /* LLXAppDelegate.h */,
 				BE0BC3BD1897C94300CA1777 /* LLXAppDelegate.m */,
 				BE0BC3BF1897C94300CA1777 /* Main.storyboard */,
@@ -236,6 +239,7 @@
 				BE0BC3B81897C94300CA1777 /* InfoPlist.strings in Resources */,
 				BEDF43331897D88300597D23 /* AFNetworking_2.0_-_CocoaHeads_Raleigh___Durham.pdf in Resources */,
 				BE0BC3C11897C94300CA1777 /* Main.storyboard in Resources */,
+				BE8E71A818A4640E00D765C3 /* 1.doc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
