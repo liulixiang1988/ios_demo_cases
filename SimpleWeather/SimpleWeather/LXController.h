@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LXController : UIViewController
+@interface LXController : UIViewController<UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
 @end

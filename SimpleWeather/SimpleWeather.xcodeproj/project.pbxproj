@@ -21,6 +21,7 @@
 		6410DF011FBCFE6920969E7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410D1819643765D4B175D7C /* CoreGraphics.framework */; };
 		8E1BF04FDA384A418A48D17D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 966BB8A15F5F44EDB2BC752C /* libPods.a */; };
 		BEF9C3D618A61BE300E09A18 /* LXController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF9C3D518A61BE300E09A18 /* LXController.m */; };
+		BEF9C3D818A61E4C00E09A18 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = BEF9C3D718A61E4C00E09A18 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		966BB8A15F5F44EDB2BC752C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF9C3D418A61BE300E09A18 /* LXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXController.h; sourceTree = "<group>"; };
 		BEF9C3D518A61BE300E09A18 /* LXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXController.m; sourceTree = "<group>"; };
+		BEF9C3D718A61E4C00E09A18 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		6410D7059070A0F4B53977CE /* SimpleWeather */ = {
 			isa = PBXGroup;
 			children = (
+				BEF9C3D718A61E4C00E09A18 /* Images */,
 				6410D320191586E7C9BB9D22 /* Supporting Files */,
 				6410D9EF6C45A5A1AC01130F /* LXAppDelegate.h */,
 				6410DB56BC215C56F65C3FF6 /* LXAppDelegate.m */,
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6410D6CDBE50C4304F3847F4 /* InfoPlist.strings in Resources */,
+				BEF9C3D818A61E4C00E09A18 /* Images in Resources */,
 				6410D1B9CF623464C893F953 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
