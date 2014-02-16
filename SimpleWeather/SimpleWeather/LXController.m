@@ -36,6 +36,8 @@
     //1, screen size and background
     self.screenHeight = [UIScreen mainScreen].bounds.size.height;
     
+    //NSString *path = [[NSBundle mainBundle] pathForResource:@"bg" ofType:@"png"];
+    //UIImage *background = [UIImage imageWithContentsOfFile:path];
     UIImage *background = [UIImage imageNamed:@"bg"];
     
     //2, background image view
