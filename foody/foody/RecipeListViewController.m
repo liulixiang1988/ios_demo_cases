@@ -8,6 +8,7 @@
 
 #import "RecipeListViewController.h"
 #import "RecipeCell.h"
+#import "RecipeDetail.h"
 
 @interface RecipeListViewController ()
 
@@ -72,6 +73,11 @@
     return cell;
 }
 
+-(CGFloat) tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 68;
+}
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -111,22 +117,16 @@
 }
 */
 
-/*
+
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-
-    // Pass the selected object to the new view controller.
-    
-    // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    RecipeDetail *recipeDetail = [[RecipeDetail alloc] initWithNibName:@"RecipeDetail"
+                                                                bundle:nil];
+    [self.navigationController pushViewController:recipeDetail animated:YES];
 }
- 
- */
+
 
 @end

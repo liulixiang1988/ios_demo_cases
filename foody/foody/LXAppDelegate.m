@@ -17,7 +17,9 @@
     
     RecipeListViewController *recipeList = [[RecipeListViewController alloc] initWithNibName:@"RecipeListViewController" bundle:nil];
     
-    self.window.rootViewController = recipeList;
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:recipeList];
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

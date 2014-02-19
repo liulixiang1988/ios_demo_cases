@@ -25,6 +25,40 @@
 		BE748D9618B494850088B4FC /* RecipeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748D9418B494850088B4FC /* RecipeListViewController.xib */; };
 		BE748D9918B495510088B4FC /* RecipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748D9818B495510088B4FC /* RecipeCell.m */; };
 		BE748D9B18B4956A0088B4FC /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748D9A18B4956A0088B4FC /* RecipeCell.xib */; };
+		BE748D9F18B49CD50088B4FC /* RecipeDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748D9D18B49CD50088B4FC /* RecipeDetail.m */; };
+		BE748DA018B49CD50088B4FC /* RecipeDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748D9E18B49CD50088B4FC /* RecipeDetail.xib */; };
+		BE748DC318B49EF40088B4FC /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA318B49EF40088B4FC /* back-button.png */; };
+		BE748DC418B49EF40088B4FC /* back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA418B49EF40088B4FC /* back-button@2x.png */; };
+		BE748DC518B49EF40088B4FC /* button-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA518B49EF40088B4FC /* button-pressed.png */; };
+		BE748DC618B49EF40088B4FC /* button-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA618B49EF40088B4FC /* button-pressed@2x.png */; };
+		BE748DC718B49EF40088B4FC /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA718B49EF40088B4FC /* button.png */; };
+		BE748DC818B49EF40088B4FC /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA818B49EF40088B4FC /* button@2x.png */; };
+		BE748DC918B49EF40088B4FC /* country.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DA918B49EF40088B4FC /* country.png */; };
+		BE748DCA18B49EF40088B4FC /* country@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAA18B49EF40088B4FC /* country@2x.png */; };
+		BE748DCB18B49EF40088B4FC /* details-photo-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAB18B49EF40088B4FC /* details-photo-mask.png */; };
+		BE748DCC18B49EF40088B4FC /* details-photo-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAC18B49EF40088B4FC /* details-photo-mask@2x.png */; };
+		BE748DCD18B49EF40088B4FC /* food-large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAD18B49EF40088B4FC /* food-large.jpg */; };
+		BE748DCE18B49EF40088B4FC /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAE18B49EF40088B4FC /* food.jpg */; };
+		BE748DCF18B49EF40088B4FC /* ingredients-list.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DAF18B49EF40088B4FC /* ingredients-list.png */; };
+		BE748DD018B49EF40088B4FC /* ingredients-list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB018B49EF40088B4FC /* ingredients-list@2x.png */; };
+		BE748DD118B49EF40088B4FC /* input-text.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB118B49EF40088B4FC /* input-text.png */; };
+		BE748DD218B49EF40088B4FC /* input-text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB218B49EF40088B4FC /* input-text@2x.png */; };
+		BE748DD318B49EF40088B4FC /* leather-background.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB318B49EF40088B4FC /* leather-background.png */; };
+		BE748DD418B49EF40088B4FC /* leather-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB418B49EF40088B4FC /* leather-background@2x.png */; };
+		BE748DD518B49EF40088B4FC /* list-item.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB518B49EF40088B4FC /* list-item.png */; };
+		BE748DD618B49EF40088B4FC /* list-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB618B49EF40088B4FC /* list-item@2x.png */; };
+		BE748DD718B49EF40088B4FC /* list-mask.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB718B49EF40088B4FC /* list-mask.png */; };
+		BE748DD818B49EF40088B4FC /* list-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB818B49EF40088B4FC /* list-mask@2x.png */; };
+		BE748DD918B49EF40088B4FC /* navbar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DB918B49EF40088B4FC /* navbar-icon.png */; };
+		BE748DDA18B49EF40088B4FC /* navbar-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBA18B49EF40088B4FC /* navbar-icon@2x.png */; };
+		BE748DDB18B49EF40088B4FC /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBB18B49EF40088B4FC /* navbar.png */; };
+		BE748DDC18B49EF40088B4FC /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBC18B49EF40088B4FC /* navbar@2x.png */; };
+		BE748DDD18B49EF40088B4FC /* step-bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBD18B49EF40088B4FC /* step-bullet.png */; };
+		BE748DDE18B49EF40088B4FC /* step-bullet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBE18B49EF40088B4FC /* step-bullet@2x.png */; };
+		BE748DDF18B49EF40088B4FC /* tabbar-item.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DBF18B49EF40088B4FC /* tabbar-item.png */; };
+		BE748DE018B49EF40088B4FC /* tabbar-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DC018B49EF40088B4FC /* tabbar-item@2x.png */; };
+		BE748DE118B49EF40088B4FC /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DC118B49EF40088B4FC /* tabbar.png */; };
+		BE748DE218B49EF40088B4FC /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE748DC218B49EF40088B4FC /* tabbar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +97,41 @@
 		BE748D9718B495510088B4FC /* RecipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCell.h; sourceTree = "<group>"; };
 		BE748D9818B495510088B4FC /* RecipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCell.m; sourceTree = "<group>"; };
 		BE748D9A18B4956A0088B4FC /* RecipeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+		BE748D9C18B49CD50088B4FC /* RecipeDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetail.h; sourceTree = "<group>"; };
+		BE748D9D18B49CD50088B4FC /* RecipeDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetail.m; sourceTree = "<group>"; };
+		BE748D9E18B49CD50088B4FC /* RecipeDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetail.xib; sourceTree = "<group>"; };
+		BE748DA318B49EF40088B4FC /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
+		BE748DA418B49EF40088B4FC /* back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button@2x.png"; sourceTree = "<group>"; };
+		BE748DA518B49EF40088B4FC /* button-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed.png"; sourceTree = "<group>"; };
+		BE748DA618B49EF40088B4FC /* button-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-pressed@2x.png"; sourceTree = "<group>"; };
+		BE748DA718B49EF40088B4FC /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		BE748DA818B49EF40088B4FC /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		BE748DA918B49EF40088B4FC /* country.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = country.png; sourceTree = "<group>"; };
+		BE748DAA18B49EF40088B4FC /* country@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "country@2x.png"; sourceTree = "<group>"; };
+		BE748DAB18B49EF40088B4FC /* details-photo-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-photo-mask.png"; sourceTree = "<group>"; };
+		BE748DAC18B49EF40088B4FC /* details-photo-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details-photo-mask@2x.png"; sourceTree = "<group>"; };
+		BE748DAD18B49EF40088B4FC /* food-large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "food-large.jpg"; sourceTree = "<group>"; };
+		BE748DAE18B49EF40088B4FC /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		BE748DAF18B49EF40088B4FC /* ingredients-list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredients-list.png"; sourceTree = "<group>"; };
+		BE748DB018B49EF40088B4FC /* ingredients-list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ingredients-list@2x.png"; sourceTree = "<group>"; };
+		BE748DB118B49EF40088B4FC /* input-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-text.png"; sourceTree = "<group>"; };
+		BE748DB218B49EF40088B4FC /* input-text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input-text@2x.png"; sourceTree = "<group>"; };
+		BE748DB318B49EF40088B4FC /* leather-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather-background.png"; sourceTree = "<group>"; };
+		BE748DB418B49EF40088B4FC /* leather-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leather-background@2x.png"; sourceTree = "<group>"; };
+		BE748DB518B49EF40088B4FC /* list-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-item.png"; sourceTree = "<group>"; };
+		BE748DB618B49EF40088B4FC /* list-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-item@2x.png"; sourceTree = "<group>"; };
+		BE748DB718B49EF40088B4FC /* list-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-mask.png"; sourceTree = "<group>"; };
+		BE748DB818B49EF40088B4FC /* list-mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-mask@2x.png"; sourceTree = "<group>"; };
+		BE748DB918B49EF40088B4FC /* navbar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon.png"; sourceTree = "<group>"; };
+		BE748DBA18B49EF40088B4FC /* navbar-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar-icon@2x.png"; sourceTree = "<group>"; };
+		BE748DBB18B49EF40088B4FC /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		BE748DBC18B49EF40088B4FC /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		BE748DBD18B49EF40088B4FC /* step-bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step-bullet.png"; sourceTree = "<group>"; };
+		BE748DBE18B49EF40088B4FC /* step-bullet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step-bullet@2x.png"; sourceTree = "<group>"; };
+		BE748DBF18B49EF40088B4FC /* tabbar-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-item.png"; sourceTree = "<group>"; };
+		BE748DC018B49EF40088B4FC /* tabbar-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar-item@2x.png"; sourceTree = "<group>"; };
+		BE748DC118B49EF40088B4FC /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		BE748DC218B49EF40088B4FC /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +201,7 @@
 		6410DB6817F7ACD2E3062ABB /* foody */ = {
 			isa = PBXGroup;
 			children = (
+				BE748DA218B49EF40088B4FC /* Resources */,
 				6410D3B140446F69291FDEC4 /* Supporting Files */,
 				6410D4BAA38615D8FBF7A7AA /* LXAppDelegate.h */,
 				6410D4F8A29465B4B626A41E /* LXAppDelegate.m */,
@@ -145,6 +215,9 @@
 				BE748D9718B495510088B4FC /* RecipeCell.h */,
 				BE748D9818B495510088B4FC /* RecipeCell.m */,
 				BE748D9A18B4956A0088B4FC /* RecipeCell.xib */,
+				BE748D9C18B49CD50088B4FC /* RecipeDetail.h */,
+				BE748D9D18B49CD50088B4FC /* RecipeDetail.m */,
+				BE748D9E18B49CD50088B4FC /* RecipeDetail.xib */,
 			);
 			path = foody;
 			sourceTree = "<group>";
@@ -166,6 +239,45 @@
 				6410DB6817F7ACD2E3062ABB /* foody */,
 				6410D26418FAC8F47ED5BAF4 /* foodyTests */,
 			);
+			sourceTree = "<group>";
+		};
+		BE748DA218B49EF40088B4FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE748DA318B49EF40088B4FC /* back-button.png */,
+				BE748DA418B49EF40088B4FC /* back-button@2x.png */,
+				BE748DA518B49EF40088B4FC /* button-pressed.png */,
+				BE748DA618B49EF40088B4FC /* button-pressed@2x.png */,
+				BE748DA718B49EF40088B4FC /* button.png */,
+				BE748DA818B49EF40088B4FC /* button@2x.png */,
+				BE748DA918B49EF40088B4FC /* country.png */,
+				BE748DAA18B49EF40088B4FC /* country@2x.png */,
+				BE748DAB18B49EF40088B4FC /* details-photo-mask.png */,
+				BE748DAC18B49EF40088B4FC /* details-photo-mask@2x.png */,
+				BE748DAD18B49EF40088B4FC /* food-large.jpg */,
+				BE748DAE18B49EF40088B4FC /* food.jpg */,
+				BE748DAF18B49EF40088B4FC /* ingredients-list.png */,
+				BE748DB018B49EF40088B4FC /* ingredients-list@2x.png */,
+				BE748DB118B49EF40088B4FC /* input-text.png */,
+				BE748DB218B49EF40088B4FC /* input-text@2x.png */,
+				BE748DB318B49EF40088B4FC /* leather-background.png */,
+				BE748DB418B49EF40088B4FC /* leather-background@2x.png */,
+				BE748DB518B49EF40088B4FC /* list-item.png */,
+				BE748DB618B49EF40088B4FC /* list-item@2x.png */,
+				BE748DB718B49EF40088B4FC /* list-mask.png */,
+				BE748DB818B49EF40088B4FC /* list-mask@2x.png */,
+				BE748DB918B49EF40088B4FC /* navbar-icon.png */,
+				BE748DBA18B49EF40088B4FC /* navbar-icon@2x.png */,
+				BE748DBB18B49EF40088B4FC /* navbar.png */,
+				BE748DBC18B49EF40088B4FC /* navbar@2x.png */,
+				BE748DBD18B49EF40088B4FC /* step-bullet.png */,
+				BE748DBE18B49EF40088B4FC /* step-bullet@2x.png */,
+				BE748DBF18B49EF40088B4FC /* tabbar-item.png */,
+				BE748DC018B49EF40088B4FC /* tabbar-item@2x.png */,
+				BE748DC118B49EF40088B4FC /* tabbar.png */,
+				BE748DC218B49EF40088B4FC /* tabbar@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,11 +349,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE748DC718B49EF40088B4FC /* button.png in Resources */,
+				BE748DA018B49CD50088B4FC /* RecipeDetail.xib in Resources */,
+				BE748DC418B49EF40088B4FC /* back-button@2x.png in Resources */,
 				BE748D9618B494850088B4FC /* RecipeListViewController.xib in Resources */,
+				BE748DDC18B49EF40088B4FC /* navbar@2x.png in Resources */,
+				BE748DCF18B49EF40088B4FC /* ingredients-list.png in Resources */,
+				BE748DD718B49EF40088B4FC /* list-mask.png in Resources */,
 				6410DD3062ACDADD53081092 /* InfoPlist.strings in Resources */,
+				BE748DE218B49EF40088B4FC /* tabbar@2x.png in Resources */,
+				BE748DDA18B49EF40088B4FC /* navbar-icon@2x.png in Resources */,
+				BE748DD518B49EF40088B4FC /* list-item.png in Resources */,
+				BE748DD618B49EF40088B4FC /* list-item@2x.png in Resources */,
 				BE748D9B18B4956A0088B4FC /* RecipeCell.xib in Resources */,
+				BE748DD918B49EF40088B4FC /* navbar-icon.png in Resources */,
 				6410D9233037C163C489A651 /* Images.xcassets in Resources */,
+				BE748DC318B49EF40088B4FC /* back-button.png in Resources */,
+				BE748DDF18B49EF40088B4FC /* tabbar-item.png in Resources */,
+				BE748DD318B49EF40088B4FC /* leather-background.png in Resources */,
+				BE748DC518B49EF40088B4FC /* button-pressed.png in Resources */,
 				6410D3BE009958DB4F4D41E6 /* Main.storyboard in Resources */,
+				BE748DC918B49EF40088B4FC /* country.png in Resources */,
+				BE748DCB18B49EF40088B4FC /* details-photo-mask.png in Resources */,
+				BE748DDE18B49EF40088B4FC /* step-bullet@2x.png in Resources */,
+				BE748DD018B49EF40088B4FC /* ingredients-list@2x.png in Resources */,
+				BE748DD818B49EF40088B4FC /* list-mask@2x.png in Resources */,
+				BE748DCC18B49EF40088B4FC /* details-photo-mask@2x.png in Resources */,
+				BE748DDB18B49EF40088B4FC /* navbar.png in Resources */,
+				BE748DD418B49EF40088B4FC /* leather-background@2x.png in Resources */,
+				BE748DCE18B49EF40088B4FC /* food.jpg in Resources */,
+				BE748DD218B49EF40088B4FC /* input-text@2x.png in Resources */,
+				BE748DD118B49EF40088B4FC /* input-text.png in Resources */,
+				BE748DDD18B49EF40088B4FC /* step-bullet.png in Resources */,
+				BE748DE018B49EF40088B4FC /* tabbar-item@2x.png in Resources */,
+				BE748DCA18B49EF40088B4FC /* country@2x.png in Resources */,
+				BE748DC818B49EF40088B4FC /* button@2x.png in Resources */,
+				BE748DE118B49EF40088B4FC /* tabbar.png in Resources */,
+				BE748DCD18B49EF40088B4FC /* food-large.jpg in Resources */,
+				BE748DC618B49EF40088B4FC /* button-pressed@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +415,7 @@
 			files = (
 				BE748D9518B494850088B4FC /* RecipeListViewController.m in Sources */,
 				6410DC2A0F75CC5999593637 /* main.m in Sources */,
+				BE748D9F18B49CD50088B4FC /* RecipeDetail.m in Sources */,
 				6410D21FAD407F259484E3B4 /* LXAppDelegate.m in Sources */,
 				6410D812CF3CD7BD8CA5DDE5 /* LXViewController.m in Sources */,
 				BE748D9918B495510088B4FC /* RecipeCell.m in Sources */,
