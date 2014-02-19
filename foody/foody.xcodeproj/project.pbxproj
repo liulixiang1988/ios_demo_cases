@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6410D096F8AD788985B55CEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410D5E8D3088F1365343FE0 /* UIKit.framework */; };
+		6410D21FAD407F259484E3B4 /* LXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410D4F8A29465B4B626A41E /* LXAppDelegate.m */; };
+		6410D2581873CB1A470D76E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410D5E8D3088F1365343FE0 /* UIKit.framework */; };
+		6410D26A251C33163BCB068B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410D4F0EC9525C248C9F0B6 /* CoreGraphics.framework */; };
+		6410D3BE009958DB4F4D41E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6410D5251ED335708492968C /* Main.storyboard */; };
+		6410D812CF3CD7BD8CA5DDE5 /* LXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410D1531320E8CEEEC4E799 /* LXViewController.m */; };
+		6410D832413135CC9A0AE652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DDD20B7678159A5F55E6 /* Foundation.framework */; };
+		6410D9233037C163C489A651 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6410D032B675D5E48E1E9070 /* Images.xcassets */; };
+		6410DC2A0F75CC5999593637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410DDCA30026D0D015BC52B /* main.m */; };
+		6410DC70A6EE551FAC4A87DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DDD20B7678159A5F55E6 /* Foundation.framework */; };
+		6410DD005B259182574B6E5F /* foodyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6410D49DCB151617B19AA12E /* foodyTests.m */; };
+		6410DD16A59D7732F5EBDCD1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DF7E5B926619C5FA67C7 /* XCTest.framework */; };
+		6410DD3062ACDADD53081092 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6410D8B9823AC5B6F3CAFEDF /* InfoPlist.strings */; };
+		6410DEB16119C3EBFECB584C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6410DC1B60F2767D7077AF37 /* InfoPlist.strings */; };
+		BE748D9518B494850088B4FC /* RecipeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748D9318B494850088B4FC /* RecipeListViewController.m */; };
+		BE748D9618B494850088B4FC /* RecipeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748D9418B494850088B4FC /* RecipeListViewController.xib */; };
+		BE748D9918B495510088B4FC /* RecipeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE748D9818B495510088B4FC /* RecipeCell.m */; };
+		BE748D9B18B4956A0088B4FC /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE748D9A18B4956A0088B4FC /* RecipeCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6410DC7A0C8EC0610E4EC1D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6410D9A889ACDB391B5E502D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6410DA48052C9D8500DDDDD0;
+			remoteInfo = foody;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6410D032B675D5E48E1E9070 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6410D08EF92C1F33422D1636 /* foody-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foody-Prefix.pch"; sourceTree = "<group>"; };
+		6410D1531320E8CEEEC4E799 /* LXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXViewController.m; sourceTree = "<group>"; };
+		6410D3A09524A08C09514FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6410D49DCB151617B19AA12E /* foodyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodyTests.m; sourceTree = "<group>"; };
+		6410D4BAA38615D8FBF7A7AA /* LXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXAppDelegate.h; sourceTree = "<group>"; };
+		6410D4F0EC9525C248C9F0B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6410D4F8A29465B4B626A41E /* LXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAppDelegate.m; sourceTree = "<group>"; };
+		6410D5E8D3088F1365343FE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6410D7FC802505E989560C40 /* LXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXViewController.h; sourceTree = "<group>"; };
+		6410D935D5B3D671EB1333BF /* foody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6410DB9C0E0E62C7787D95E9 /* foody-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "foody-Info.plist"; sourceTree = "<group>"; };
+		6410DCEE03EAD3089F1FF2E5 /* foodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6410DDCA30026D0D015BC52B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6410DDD20B7678159A5F55E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6410DE8E6ECAA2AE7D941231 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6410DEA8F5B786CCAB972F93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6410DF31D8C2902F4FD4F90B /* foodyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "foodyTests-Info.plist"; sourceTree = "<group>"; };
+		6410DF7E5B926619C5FA67C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE748D9218B494850088B4FC /* RecipeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListViewController.h; sourceTree = "<group>"; };
+		BE748D9318B494850088B4FC /* RecipeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListViewController.m; sourceTree = "<group>"; };
+		BE748D9418B494850088B4FC /* RecipeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeListViewController.xib; sourceTree = "<group>"; };
+		BE748D9718B495510088B4FC /* RecipeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeCell.h; sourceTree = "<group>"; };
+		BE748D9818B495510088B4FC /* RecipeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeCell.m; sourceTree = "<group>"; };
+		BE748D9A18B4956A0088B4FC /* RecipeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6410D321DF58C583AF76F470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6410D832413135CC9A0AE652 /* Foundation.framework in Frameworks */,
+				6410D26A251C33163BCB068B /* CoreGraphics.framework in Frameworks */,
+				6410D096F8AD788985B55CEB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6410D5448DEF2DC898990256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6410DD16A59D7732F5EBDCD1 /* XCTest.framework in Frameworks */,
+				6410DC70A6EE551FAC4A87DC /* Foundation.framework in Frameworks */,
+				6410D2581873CB1A470D76E9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6410D26418FAC8F47ED5BAF4 /* foodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6410DD1933C2523F72D6EF6A /* Supporting Files */,
+				6410D49DCB151617B19AA12E /* foodyTests.m */,
+			);
+			path = foodyTests;
+			sourceTree = "<group>";
+		};
+		6410D3B140446F69291FDEC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6410DB9C0E0E62C7787D95E9 /* foody-Info.plist */,
+				6410D8B9823AC5B6F3CAFEDF /* InfoPlist.strings */,
+				6410DDCA30026D0D015BC52B /* main.m */,
+				6410D08EF92C1F33422D1636 /* foody-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6410D6D48B069422C868DC73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6410D935D5B3D671EB1333BF /* foody.app */,
+				6410DCEE03EAD3089F1FF2E5 /* foodyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6410D9F494A928028F04A7D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6410DDD20B7678159A5F55E6 /* Foundation.framework */,
+				6410D4F0EC9525C248C9F0B6 /* CoreGraphics.framework */,
+				6410D5E8D3088F1365343FE0 /* UIKit.framework */,
+				6410DF7E5B926619C5FA67C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6410DB6817F7ACD2E3062ABB /* foody */ = {
+			isa = PBXGroup;
+			children = (
+				6410D3B140446F69291FDEC4 /* Supporting Files */,
+				6410D4BAA38615D8FBF7A7AA /* LXAppDelegate.h */,
+				6410D4F8A29465B4B626A41E /* LXAppDelegate.m */,
+				6410D032B675D5E48E1E9070 /* Images.xcassets */,
+				6410D5251ED335708492968C /* Main.storyboard */,
+				6410D7FC802505E989560C40 /* LXViewController.h */,
+				6410D1531320E8CEEEC4E799 /* LXViewController.m */,
+				BE748D9218B494850088B4FC /* RecipeListViewController.h */,
+				BE748D9318B494850088B4FC /* RecipeListViewController.m */,
+				BE748D9418B494850088B4FC /* RecipeListViewController.xib */,
+				BE748D9718B495510088B4FC /* RecipeCell.h */,
+				BE748D9818B495510088B4FC /* RecipeCell.m */,
+				BE748D9A18B4956A0088B4FC /* RecipeCell.xib */,
+			);
+			path = foody;
+			sourceTree = "<group>";
+		};
+		6410DD1933C2523F72D6EF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6410DF31D8C2902F4FD4F90B /* foodyTests-Info.plist */,
+				6410DC1B60F2767D7077AF37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6410DE57A4863EB1E212D730 = {
+			isa = PBXGroup;
+			children = (
+				6410D6D48B069422C868DC73 /* Products */,
+				6410D9F494A928028F04A7D1 /* Frameworks */,
+				6410DB6817F7ACD2E3062ABB /* foody */,
+				6410D26418FAC8F47ED5BAF4 /* foodyTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6410DA48052C9D8500DDDDD0 /* foody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6410D9565B19614DDFCB4494 /* Build configuration list for PBXNativeTarget "foody" */;
+			buildPhases = (
+				6410DCAEC9056DE03DE34474 /* Sources */,
+				6410D321DF58C583AF76F470 /* Frameworks */,
+				6410D60A2E50051C84EDBFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foody;
+			productName = foody;
+			productReference = 6410D935D5B3D671EB1333BF /* foody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6410DE80B00D57C53C88F5C4 /* foodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6410D1BFA992E2F4E1F1B6F6 /* Build configuration list for PBXNativeTarget "foodyTests" */;
+			buildPhases = (
+				6410DC959CA2934339AD2C4F /* Sources */,
+				6410D5448DEF2DC898990256 /* Frameworks */,
+				6410D90E018601E470C49B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6410D692205540F6D7A9198E /* PBXTargetDependency */,
+			);
+			name = foodyTests;
+			productName = foodyTests;
+			productReference = 6410DCEE03EAD3089F1FF2E5 /* foodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6410D9A889ACDB391B5E502D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = liulixiang;
+			};
+			buildConfigurationList = 6410DC28B01ABBB38771AC86 /* Build configuration list for PBXProject "foody" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6410DE57A4863EB1E212D730;
+			productRefGroup = 6410D6D48B069422C868DC73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6410DA48052C9D8500DDDDD0 /* foody */,
+				6410DE80B00D57C53C88F5C4 /* foodyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6410D60A2E50051C84EDBFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE748D9618B494850088B4FC /* RecipeListViewController.xib in Resources */,
+				6410DD3062ACDADD53081092 /* InfoPlist.strings in Resources */,
+				BE748D9B18B4956A0088B4FC /* RecipeCell.xib in Resources */,
+				6410D9233037C163C489A651 /* Images.xcassets in Resources */,
+				6410D3BE009958DB4F4D41E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6410D90E018601E470C49B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6410DEB16119C3EBFECB584C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6410DC959CA2934339AD2C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6410DD005B259182574B6E5F /* foodyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6410DCAEC9056DE03DE34474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE748D9518B494850088B4FC /* RecipeListViewController.m in Sources */,
+				6410DC2A0F75CC5999593637 /* main.m in Sources */,
+				6410D21FAD407F259484E3B4 /* LXAppDelegate.m in Sources */,
+				6410D812CF3CD7BD8CA5DDE5 /* LXViewController.m in Sources */,
+				BE748D9918B495510088B4FC /* RecipeCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6410D692205540F6D7A9198E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6410DA48052C9D8500DDDDD0 /* foody */;
+			targetProxy = 6410DC7A0C8EC0610E4EC1D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6410D5251ED335708492968C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6410D3A09524A08C09514FF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6410D8B9823AC5B6F3CAFEDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6410DE8E6ECAA2AE7D941231 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6410DC1B60F2767D7077AF37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6410DEA8F5B786CCAB972F93 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6410D0A38AA32106A0D017FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foody/foody-Prefix.pch";
+				INFOPLIST_FILE = "foody/foody-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6410D3ECFF0946E9438CBA32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6410D8A5ACCFD0BFE2DA79A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foody/foody-Prefix.pch";
+				INFOPLIST_FILE = "foody/foody-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6410DE13F0B66A065C7B0FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6410DE357CCEFFF773CE1C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foody/foody-Prefix.pch";
+				INFOPLIST_FILE = "foodyTests/foodyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		6410DFE78CBCD60A162613C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foody/foody-Prefix.pch";
+				INFOPLIST_FILE = "foodyTests/foodyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6410D1BFA992E2F4E1F1B6F6 /* Build configuration list for PBXNativeTarget "foodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410DE357CCEFFF773CE1C96 /* Release */,
+				6410DFE78CBCD60A162613C6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6410D9565B19614DDFCB4494 /* Build configuration list for PBXNativeTarget "foody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410D8A5ACCFD0BFE2DA79A3 /* Release */,
+				6410D0A38AA32106A0D017FE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6410DC28B01ABBB38771AC86 /* Build configuration list for PBXProject "foody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410DE13F0B66A065C7B0FE6 /* Release */,
+				6410D3ECFF0946E9438CBA32 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6410D9A889ACDB391B5E502D /* Project object */;
+}
