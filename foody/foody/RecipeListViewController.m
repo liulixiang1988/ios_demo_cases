@@ -30,6 +30,7 @@
     [super viewDidLoad];
     
     self.navigationController.navigationBar.translucent = NO;
+    self.title = @"厨房菜谱";
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

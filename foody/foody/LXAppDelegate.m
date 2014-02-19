@@ -29,6 +29,9 @@
 {
     UIImage *barImage = [UIImage imageNamed:@"navbar.png"];
     [[UINavigationBar appearance] setBackgroundImage:barImage forBarMetrics:UIBarMetricsDefault];
+    
+    UIImage *barBackButtonImage = [UIImage imageNamed:@"back-button"];
+    [[UIBarButtonItem  appearance] setBackButtonBackgroundImage:barBackButtonImage forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
